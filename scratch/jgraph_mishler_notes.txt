@@ -1,0 +1,13 @@
+2022-09-27 @19:30
+    - Just trying to get a hello world to work.
+    - https://youtu.be/8Qv1pSnhEwY
+    - ```
+    jgraph -P junk.jgr | ps2pdf - | convert -density 300 - -quality 100 junk.jpg
+      ```
+    - LETS GOO it worked
+    - I should investigate my 'open' functionality.
+
+
+2022-09-28 10:55 -
+    - We need to make a name for my music format
+    - Mishler Jgraph Music? `.mjm` files?

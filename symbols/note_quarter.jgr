@@ -1,0 +1,9 @@
+newgraph
+xaxis min -10 max 10 nodraw
+yaxis min -10 max 10 nodraw
+
+(* the circle *)
+newcurve marktype circle marksize 1 1 pts 0 0
+
+(* the line *)
+newline poly pfill 1 pts 0.5 0 0.5 4

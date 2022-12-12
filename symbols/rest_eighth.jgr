@@ -1,0 +1,17 @@
+newgraph
+xaxis min -20 max 20 nodraw
+yaxis min -10 max 10 nodraw
+
+(* centered on B on the treble clef *)
+(* starting from the bottom of the dot, working way to the right *)
+newline poly pfill 0 pts
+-0.5  0.5
+0.25  0.5
+-0.4  -2
+-0.3  -2
+0.5   1.2
+0.25  0.6
+-0.5  0.6
+
+(* the dot on the eighth note *)
+newcurve marktype circle marksize 1 1 pts -0.8 0.8

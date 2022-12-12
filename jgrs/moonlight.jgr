@@ -1,0 +1,157 @@
+(* t clef *)
+(* 1 sharps *)
+(* 0 flats *)
+(* 12/8 time *)
+newgraph
+xaxis min 0 max 100 nodraw
+yaxis min 0 max 35 nodraw
+newstring font Times-Roman fontsize 14 x 24 y 26 hjc vjc :
+Moonlight Sonata
+newstring font Courier fontsize 12 x 112 y 26 hjr vjc :
+Beethoven
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-29 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-23 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-17 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-11 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-5 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+1 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+7 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+13 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+19 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+25 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+31 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+37 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+43 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+49 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+55 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+61 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+67 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+73 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+79 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+85 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+91 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+97 11
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+103 14
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+109 16
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-29 -2
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-23 0
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-17 2
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-11 -2
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+-5 0
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+1 2
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+7 -2
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+13 1
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+19 3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+25 -2
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+31 1
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+37 3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+43 -3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+49 -1
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+55 3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+61 -3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+67 -1
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+73 3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+79 -3
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+85 0
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+91 1
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+97 -4
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+103 -1
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+109 1
+newcurve eps symbols/sharp.ps marksize 8 5 pts
+-52 8
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 2
+newstring font Times-Roman fontsize 30 x -36 y 6 hjc vjc :
+12
+newstring font Times-Roman fontsize 30 x -36 y 2 hjc vjc :
+8
+(* staff *)
+newline poly pfill 1 pts
+-64 0 112 0
+newline poly pfill 1 pts
+-64 2 112 2
+newline poly pfill 1 pts
+-64 4 112 4
+newline poly pfill 1 pts
+-64 6 112 6
+newline poly pfill 1 pts
+-64 8 112 8
+(* bar line *)
+newline poly pfill 1 pts
+40 0 40 8
+(* bar line *)
+newline poly pfill 1 pts
+112 0 112 8
+newcurve eps symbols/sharp.ps marksize 8 5 pts
+-52 22
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 16
+newstring font Times-Roman fontsize 30 x -36 y 20 hjc vjc :
+12
+newstring font Times-Roman fontsize 30 x -36 y 16 hjc vjc :
+8
+(* staff *)
+newline poly pfill 1 pts
+-64 14 112 14
+newline poly pfill 1 pts
+-64 16 112 16
+newline poly pfill 1 pts
+-64 18 112 18
+newline poly pfill 1 pts
+-64 20 112 20
+newline poly pfill 1 pts
+-64 22 112 22
+(* bar line *)
+newline poly pfill 1 pts
+40 14 40 22
+(* bar line *)
+newline poly pfill 1 pts
+112 14 112 22

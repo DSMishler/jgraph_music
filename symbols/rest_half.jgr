@@ -1,0 +1,10 @@
+newgraph
+xaxis min -10 max 10 nodraw
+yaxis min -10 max 10 nodraw
+
+(* centered on B on the treble clef *)
+newline poly pfill 0 pts
+-0.8   0
+0.8    0
+0.8    1.1
+-0.8   1.1

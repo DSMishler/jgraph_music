@@ -1,0 +1,311 @@
+(* t clef *)
+(* 0 sharps *)
+(* 2 flats *)
+(* 4/4 time *)
+newgraph
+xaxis min 0 max 100 nodraw
+yaxis min 0 max 35 nodraw
+newstring font Times-Roman fontsize 14 x 48 y 68 hjc vjc :
+America, the Beautiful
+newstring font Courier fontsize 12 x 160 y 68 hjr vjc :
+Samuel A. Ward
+newcurve eps ./symbols/rest_half.ps marksize 80 20 pts 
+-20 60
+newcurve eps ./symbols/rest_quarter.ps marksize 80 20 pts 
+-2 60
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+10 57
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+22 57
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+31 60
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+37 55
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+46 55
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+58 57
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+70 57
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+79 60
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+85 54
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+94 54
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+106 55
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+118 56
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+130 57
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+142 58
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+154 59
+newcurve eps ./symbols/note_half.ps marksize 80 20 pts 
+-20 43
+newcurve eps ./symbols/rest_quarter.ps marksize 80 20 pts 
+-2 46
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+10 43
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+22 43
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+31 46
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+37 41
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+46 41
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+58 43
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+70 43
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+79 46
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+85 40
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+94 40
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+106 47
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+118 46
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+130 47
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+142 48
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+154 44
+newcurve eps ./symbols/note_half.ps marksize 80 20 pts 
+-20 33
+newcurve eps ./symbols/rest_quarter.ps marksize 80 20 pts 
+-2 32
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+10 29
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+22 34
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+31 32
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+37 34
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+46 33
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+58 32
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+70 32
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+79 32
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+85 31
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+94 31
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+106 32
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+118 33
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+130 31
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+142 30
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+154 29
+newcurve eps ./symbols/note_half.ps marksize 80 20 pts 
+-20 18
+newcurve eps ./symbols/rest_quarter.ps marksize 80 20 pts 
+-2 18
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+10 18
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+22 18
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+31 18
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+37 16
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+46 16
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+58 18
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+70 18
+newcurve eps ./symbols/rest_eighth.ps marksize 80 20 pts 
+79 18
+newcurve eps ./symbols/note_eighth.ps marksize 80 20 pts 
+85 15
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+94 15
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+106 15
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+118 16
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+130 18
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+142 15
+newcurve eps ./symbols/note_quarter.ps marksize 80 20 pts 
+154 19
+newcurve eps ./symbols/note_whole.ps marksize 80 20 pts 
+-8 4
+newcurve eps ./symbols/rest_whole.ps marksize 80 20 pts 
+40 4
+newcurve eps symbols/flat.ps marksize 8 5 pts
+-52 4
+-50 7
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 2
+newstring font Times-Roman fontsize 30 x -36 y 6 hjc vjc :
+4
+newstring font Times-Roman fontsize 30 x -36 y 2 hjc vjc :
+4
+(* staff *)
+newline poly pfill 1 pts
+-64 0 160 0
+newline poly pfill 1 pts
+-64 2 160 2
+newline poly pfill 1 pts
+-64 4 160 4
+newline poly pfill 1 pts
+-64 6 160 6
+newline poly pfill 1 pts
+-64 8 160 8
+(* bar line *)
+newline poly pfill 1 pts
+16 0 16 8
+(* bar line *)
+newline poly pfill 1 pts
+64 0 64 8
+(* bar line *)
+newline poly pfill 1 pts
+112 0 112 8
+(* bar line *)
+newline poly pfill 1 pts
+160 0 160 8
+newcurve eps symbols/flat.ps marksize 8 5 pts
+-52 18
+-50 21
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 16
+newstring font Times-Roman fontsize 30 x -36 y 20 hjc vjc :
+4
+newstring font Times-Roman fontsize 30 x -36 y 16 hjc vjc :
+4
+(* staff *)
+newline poly pfill 1 pts
+-64 14 160 14
+newline poly pfill 1 pts
+-64 16 160 16
+newline poly pfill 1 pts
+-64 18 160 18
+newline poly pfill 1 pts
+-64 20 160 20
+newline poly pfill 1 pts
+-64 22 160 22
+(* bar line *)
+newline poly pfill 1 pts
+16 14 16 22
+(* bar line *)
+newline poly pfill 1 pts
+64 14 64 22
+(* bar line *)
+newline poly pfill 1 pts
+112 14 112 22
+(* bar line *)
+newline poly pfill 1 pts
+160 14 160 22
+newcurve eps symbols/flat.ps marksize 8 5 pts
+-52 32
+-50 35
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 30
+newstring font Times-Roman fontsize 30 x -36 y 34 hjc vjc :
+4
+newstring font Times-Roman fontsize 30 x -36 y 30 hjc vjc :
+4
+(* staff *)
+newline poly pfill 1 pts
+-64 28 160 28
+newline poly pfill 1 pts
+-64 30 160 30
+newline poly pfill 1 pts
+-64 32 160 32
+newline poly pfill 1 pts
+-64 34 160 34
+newline poly pfill 1 pts
+-64 36 160 36
+(* bar line *)
+newline poly pfill 1 pts
+16 28 16 36
+(* bar line *)
+newline poly pfill 1 pts
+64 28 64 36
+(* bar line *)
+newline poly pfill 1 pts
+112 28 112 36
+(* bar line *)
+newline poly pfill 1 pts
+160 28 160 36
+newcurve eps symbols/flat.ps marksize 8 5 pts
+-52 46
+-50 49
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 44
+newstring font Times-Roman fontsize 30 x -36 y 48 hjc vjc :
+4
+newstring font Times-Roman fontsize 30 x -36 y 44 hjc vjc :
+4
+(* staff *)
+newline poly pfill 1 pts
+-64 42 160 42
+newline poly pfill 1 pts
+-64 44 160 44
+newline poly pfill 1 pts
+-64 46 160 46
+newline poly pfill 1 pts
+-64 48 160 48
+newline poly pfill 1 pts
+-64 50 160 50
+(* bar line *)
+newline poly pfill 1 pts
+16 42 16 50
+(* bar line *)
+newline poly pfill 1 pts
+64 42 64 50
+(* bar line *)
+newline poly pfill 1 pts
+112 42 112 50
+(* bar line *)
+newline poly pfill 1 pts
+160 42 160 50
+newcurve eps symbols/flat.ps marksize 8 5 pts
+-52 60
+-50 63
+newcurve eps symbols/clef_treble.ps marksize 25 20 pts
+-58 58
+newstring font Times-Roman fontsize 30 x -36 y 62 hjc vjc :
+4
+newstring font Times-Roman fontsize 30 x -36 y 58 hjc vjc :
+4
+(* staff *)
+newline poly pfill 1 pts
+-64 56 160 56
+newline poly pfill 1 pts
+-64 58 160 58
+newline poly pfill 1 pts
+-64 60 160 60
+newline poly pfill 1 pts
+-64 62 160 62
+newline poly pfill 1 pts
+-64 64 160 64
+(* bar line *)
+newline poly pfill 1 pts
+16 56 16 64
+(* bar line *)
+newline poly pfill 1 pts
+64 56 64 64
+(* bar line *)
+newline poly pfill 1 pts
+112 56 112 64
+(* bar line *)
+newline poly pfill 1 pts
+160 56 160 64

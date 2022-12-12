@@ -1,0 +1,31 @@
+newgraph
+xaxis min -10 max 10 nodraw
+yaxis min -10 max 10 nodraw
+
+(* horizontal upper *)
+newline poly pfill 0 pts
+-6 2
+8 2
+7 1
+-7 1
+
+(* horizontal lower *)
+newline poly pfill 0 pts
+-8 -2
+6 -2
+7 -1
+-7 -1
+
+(* vertical left *)
+newline poly pfill 0 pts
+-3 -7
+0 7
+-1 7
+-4 -7
+
+(* vertical right *)
+newline poly pfill 0 pts
+-1 -7
+2 7
+3 7
+0 -7
